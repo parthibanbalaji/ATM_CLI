@@ -2,14 +2,14 @@
 npm install -g   -> this will install the ATM CLI in globla
 
 # Use Application
-ATM  -> ATM keword in the bash will trigger the installed ATM cli
+ATM  -> ATM keyword in the bash will trigger the installed ATM cli
 Eg: ATM
 C:\Node_worksapce\Atm_CLI>> ATM
 ATM :>login Alice
 Hello, Alice! 
 Your balance is $0
 
-Ctrl+C -> To exit the CLI
+Ctrl+C or .exit -> To exit the CLI
 
 
 # Implementation
