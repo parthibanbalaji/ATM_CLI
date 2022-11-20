@@ -19,6 +19,8 @@ function evalulateReplInput(input, context, filename, callback) {
     let message = error != null ? error.red : success.green;
     callback(null, message);
   } else {
+    let usageText = `\n\nUsage:\nlogin [name]\ndeposit [amount]\nwithdraw [amount]\ntransfer [target] [amount]\nlogout`;
+    errorMessage = errorMessage+usageText;
     callback(null, errorMessage.red);
   }
 }
